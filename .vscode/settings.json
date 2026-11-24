@@ -14,6 +14,22 @@
             "name": "Render PostgreSQL",
             "database": "vopais_ai",
             "username": "vopais_user"
+        },
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dc28rr08v5cc73bu2rcg-a.virginia-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Vopais PostgresSQL",
+            "database": "vopais_ai_cd3j",
+            "username": "vopais_user"
         }
-    ]
+    ],
+    "python.terminal.useEnvFile": true
 }
